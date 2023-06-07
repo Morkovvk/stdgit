@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сurriculum vitae</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<h1>Сurriculum vitae</h1>
+<!-- cv form -->
+<form method="post" action=''>
+    <!-- Contacts&information -->
+  <aside class="sidebar">
+    <fieldset>
+        <h3>Personal information</h3>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" width="370px"/></label>
+      <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text"  required /></label>
+      <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="address">Enter Your Address: <input id="address" name="address" type="text" placeholder="vul. Heroyiv, bud. 1, kv. 33 Irpin, Kyyivsʹka oblast 08203"></label>
+      <label for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="example@gmail.com" required /></label>
+      <label for="number">Enter Your Number: <input id="number" name="number"  placeholder="+380 962 891 981" required /></label>
+    <h3>Important links</h3>
+    <label for="in-profile">LinkedIn <input id="in-profile" type="url" id="in-profile" placeholder="in"></label>
+    <label for="github-profile">GitHub <input id="github-profile" type="url" id="github-profile" placeholder="GitHub"></label>
+    <label for="instagram-profile">Instagram <input id="instagram-profile" type="url" id="instagram-profile" placeholder="Instagram"></label>
+    </fieldset>
+  </aside>
+
+
+<section class="main">
+<fieldset>
+  <h3>Professional information</h3>
+  <label for="wokr-experience">Work experience
+    <textarea id="wokr-experience" name="wokr-experience" rows="3" cols="30" placeholder="Place of work, position, kind of activity, period of work"></textarea>
+  </label>
+
+  <label for="skills">Professional skills
+    <textarea id="skills" name="skills" rows="3" cols="30" placeholder="Tell us about your professional skills"></textarea>
+  </label>
+
+  <label for="soft-skills">Soft skills
+    <textarea id="soft-skills" name="soft-skills" rows="3" cols="30" placeholder="Tell us about yourself"></textarea>
+  </label>
+
+  <label for="education">Education
+    <textarea id="education" name="education" rows="3" cols="30" placeholder="Eeducational institution, еducation, courses"></textarea>
+  </label>
+
+  <label for="language">Language proficiency
+    <textarea id="language" name="language" rows="3" cols="30"> </textarea>
+  </label>
+</fieldset>
+</section>
+  <button  type="submit" value="Generar" >Generar CV</button>
+</form>
+</body>
+</html>
